@@ -1,0 +1,22 @@
+{
+    "0931122469": {
+        "first_name": "Vladyslav",
+        "last_name": "Khimich",
+        "full_name": "Vladyslav Khimich",
+        "city": "Kyiv"
+    },
+    "0931122468": {
+        "first_name": "Liza",
+        "last_name": "Khimich",
+        "full_name": "Liza Khimich",
+        "phone_number": "0931122468",
+        "city": "Kyiv"
+    },
+    "0931122467": {
+        "first_name": "Sasha",
+        "last_name": "Khimich",
+        "full_name": "Sasha Khimich",
+        "phone_number": "0931122467",
+        "city": "Lviv"
+    }
+}
