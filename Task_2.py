@@ -56,22 +56,24 @@ def delete_item(my_book: dict):
 
 
 def update_item(my_book: dict):
-    phone_number = input("Please write your number: ")
-
-    new_phone_number = input("Enter new phone number: ")
-    my_book[phone_number]["phone_number"] = new_phone_number
+    while True:
+        phone_number = input("Please write your number: ")
+        new_phone_number = input("Enter new phone number: ")
+        try:
+            my_book[phone_number]["phone_number"] = new_phone_number
+        except:
+            print("!___There is no such number, please enter existing phone number___!")
+        continue
 
     new_first_name = input("Enter new fist name: ")
     new_last_name = input("Please, write  a new last name: ")
-    new_full_name = input("Please, write  a new last name: ")
+    new_full_name = input("Please, write  a new full name: ")
     new_city = input("Please, write  a new city: ")
 
     if new_city:
         my_book[phone_number]['city'] = new_city
     if new_first_name:
         my_book[phone_number]['first_name'] = new_first_name
-    if new_last_name:
-        my_book[phone_number]['last_name'] = new_last_name
     if new_last_name:
         my_book[phone_number]['last_name'] = new_last_name
     if new_full_name:
